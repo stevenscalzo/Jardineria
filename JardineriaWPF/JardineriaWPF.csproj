@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DC13A20-C38F-4BC0-B532-8401EE019862}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>JardineriaWPF</RootNamespace>
+    <AssemblyName>JardineriaWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Clientes\MostrarClientes.xaml.cs">
+      <DependentUpon>MostrarClientes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas\ListaPedidos.xaml.cs">
+      <DependentUpon>ListaPedidos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas\PorOficina.xaml.cs">
+      <DependentUpon>PorOficina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas\PorPedidos.xaml.cs">
+      <DependentUpon>PorPedidos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas\Window1.xaml.cs">
+      <DependentUpon>Window1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pedidos\BuscadorPedido.xaml.cs">
+      <DependentUpon>BuscadorPedido.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pedidos\NuevoPedido.xaml.cs">
+      <DependentUpon>NuevoPedido.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pedidos\PedidosInfor.cs" />
+    <Compile Include="Productos\ConsultarProductos.xaml.cs">
+      <DependentUpon>ConsultarProductos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Productos\ProductoCarrito.cs" />
+    <Compile Include="UserControls\BuscadorTipoProducto.xaml.cs">
+      <DependentUpon>BuscadorTipoProducto.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ClientesOpciones.xaml.cs">
+      <DependentUpon>ClientesOpciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EstadisticasOpciones.xaml.cs">
+      <DependentUpon>EstadisticasOpciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ProductosOpciones.xaml.cs">
+      <DependentUpon>ProductosOpciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\PedidosOpciones.xaml.cs">
+      <DependentUpon>PedidosOpciones.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Clientes\MostrarClientes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Estadisticas\ListaPedidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Estadisticas\PorOficina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Estadisticas\PorPedidos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Estadisticas\Window1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Main\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Main\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Main\Principal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pedidos\BuscadorPedido.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pedidos\NuevoPedido.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Productos\ConsultarProductos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\BuscadorTipoProducto.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ClientesOpciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\EstadisticasOpciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\ProductosOpciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\PedidosOpciones.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main\Principal.xaml.cs">
+      <DependentUpon>Principal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Iconos 2020\boss_man-128.png" />
+    <Resource Include="Iconos 2020\cerrar.png" />
+    <Resource Include="Iconos 2020\clientes.png" />
+    <Resource Include="Iconos 2020\compras.png" />
+    <Resource Include="Iconos 2020\empleados.png" />
+    <Resource Include="Iconos 2020\IMO2.png" />
+    <Resource Include="Iconos 2020\marca.png" />
+    <Resource Include="Iconos 2020\maxi.png" />
+    <Resource Include="Iconos 2020\minimazar.png" />
+    <Resource Include="Iconos 2020\Mobile-Menu-Icon.png" />
+    <Resource Include="Iconos 2020\new iconos\Clientes.png" />
+    <Resource Include="Iconos 2020\new iconos\compras.png" />
+    <Resource Include="Iconos 2020\new iconos\empleados.png" />
+    <Resource Include="Iconos 2020\new iconos\icon cerrar2.png" />
+    <Resource Include="Iconos 2020\new iconos\icon maximizar.png" />
+    <Resource Include="Iconos 2020\new iconos\icon minimizar.png" />
+    <Resource Include="Iconos 2020\new iconos\icon restaurar.png" />
+    <Resource Include="Iconos 2020\new iconos\pagos.png" />
+    <Resource Include="Iconos 2020\new iconos\pc.png" />
+    <Resource Include="Iconos 2020\new iconos\reloj.png" />
+    <Resource Include="Iconos 2020\new iconos\ventas.png" />
+    <Resource Include="Iconos 2020\pagos.png" />
+    <Content Include="Iconos 2020\pc.png" />
+    <Resource Include="Iconos 2020\producto.png" />
+    <Resource Include="Iconos 2020\reportes.png" />
+    <Resource Include="Iconos 2020\res.png" />
+    <Resource Include="Iconos 2020\venta.png" />
+    <Resource Include="Iconos 2020\ventas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{6cfe70ae-d62f-4842-a6ef-0dba85354e19}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{b4177e29-dbe9-418b-8877-cee95054adf3}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

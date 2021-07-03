@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CapaDatos</name>
+    </assembly>
+    <members>
+        <member name="T:Capa_Datos.ClienteADO">
+            <summary>
+            Clase que contiene las conexiones para el tipo cliente
+            </summary>
+        </member>
+        <member name="M:Capa_Datos.ClienteADO.LeerClientes">
+            <summary>
+            Leer todos los clientes de la DB
+            </summary>
+            <returns>Lista de tipo cliente</returns>
+        </member>
+        <member name="M:Capa_Datos.ClienteADO.LeerCliente(System.Int32)">
+            <summary>
+            Lee cliente por id
+            </summary>
+            <param name="codigoCliente">Codigo/Id del cliente</param>
+            <returns>Lista de tipo cliente</returns>
+        </member>
+        <member name="M:Capa_Datos.ClienteADO.InsertarCliente(System.Nullable{System.Int32},System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.Decimal)">
+            <summary>
+            Creo un nuevo cliente en la BD
+            </summary>
+            <param name="codigoCliente">Codigo del cliente</param>
+            <param name="nombreCliente">Nombre del cliente</param>
+            <param name="nombreContacto">Nombre del contacto</param>
+            <param name="apellidoContacto">Apellido del contacto</param>
+            <param name="telefono">Telefono</param>
+            <param name="fax">Fax</param>
+            <param name="lineaDireccion1">Direccion linea 1</param>
+            <param name="lineaDireccion2">Direccion linea 2</param>
+            <param name="ciudad">Ciudad</param>
+            <param name="region">Region</param>
+            <param name="pais">País</param>
+            <param name="codigoPostal">Código postal</param>
+            <param name="codigoEmpleadosRepVentas">Código del representante de ventas</param>
+            <param name="limiteCredito">Límite de crédito</param>
+            <returns>Bool indicando si se insertó el cliente o no</returns>
+        </member>
+        <member name="M:Capa_Datos.ClienteADO.ActualizarCliente(Entidades.Cliente)">
+            <summary>
+            Actualiza la informacion de un cliente
+            </summary>
+            <param name="cliente">Cliente a actualziar</param>
+            <returns>El cliente actualizado</returns>
+        </member>
+        <member name="M:Capa_Datos.ClienteADO.BorrarCliente(System.Int32)">
+            <summary>
+            Borra al cliente de la DB
+            </summary>
+            <param name="codigoCliente">Codigo del cliente</param>
+            <returns>Bool indicando si se eliminó el cliente o no</returns>
+        </member>
+    </members>
+</doc>

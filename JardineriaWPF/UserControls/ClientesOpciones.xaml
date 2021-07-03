@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="JardineriaWPF.UserControls.ClientesOpciones"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:JardineriaWPF.UserControls"
+             mc:Ignorable="d" Height="69.038" Width="137.188">
+    <Grid>
+        <WrapPanel Orientation="Vertical">
+            <Button Height="50" 
+                    Click="Button_Click"
+                    Width="120" 
+                    FontSize="20"
+                    Foreground="White"  
+                    Background="#3370db"
+                    Margin="10">Buscar</Button>
+           
+        </WrapPanel>
+
+    </Grid>
+</UserControl>

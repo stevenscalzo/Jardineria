@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="ActualizaDetallePedido method" Url="html/ff2223b9-ef87-4884-ada3-003b98a893a6.htm" />
+  <HelpKINode Title="ActualizarCliente method" Url="html/ceae193a-282f-04c7-e2fe-2a2284c006ee.htm" />
+  <HelpKINode Title="ActualizarEmpleado method" Url="html/f8daf418-acfe-6f75-2b7f-23b8d28a2cf6.htm" />
+  <HelpKINode Title="ActualizarGamaProducto method" Url="html/28511db8-c38e-d6ef-f323-7f35370cb60d.htm" />
+  <HelpKINode Title="ActualizarOficina method" Url="html/4191a75f-d094-2483-dc9f-688d7afb6986.htm" />
+  <HelpKINode Title="ActualizarPago method" Url="html/2f104a8f-2768-149f-8f46-490326359389.htm" />
+  <HelpKINode Title="ActualizarPedido method" Url="html/a9b96adb-90c0-50bf-8291-cd41e29b6901.htm" />
+  <HelpKINode Title="ActualizarProducto method" Url="html/dc749efe-2cd9-742d-8ed8-2c0c7b1a72f5.htm" />
+  <HelpKINode Title="ADO class">
+    <HelpKINode Title="ADO Class" Url="html/4720d673-4a1d-d6c7-440e-7d5372385980.htm" />
+    <HelpKINode Title="constructor" Url="html/23448cd8-8748-f743-8fed-d628b66c5235.htm" />
+    <HelpKINode Title="fields" Url="html/152f19fc-f76b-3c52-e95d-3397a4ccb7bf.htm" />
+    <HelpKINode Title="methods" Url="html/f388f25c-404b-367f-5559-7248723f7244.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ADO.ADO constructor" Url="html/23448cd8-8748-f743-8fed-d628b66c5235.htm" />
+  <HelpKINode Title="ADO.client field" Url="html/050f551f-89dc-1030-e92a-c8f0f5f92f5e.htm" />
+  <HelpKINode Title="Apellido1 property" Url="html/2f2cf364-841c-42ed-092f-707235707e48.htm" />
+  <HelpKINode Title="Apellido2 property" Url="html/6e7f0f3c-554a-700b-c6b7-9ee8bdd707a9.htm" />
+  <HelpKINode Title="apellido_contacto property" Url="html/838fa626-dd87-8304-2a33-55031b9aa8cd.htm" />
+  <HelpKINode Title="BorrarCliente method" Url="html/2ecd8274-106b-8e6b-08bc-5b1dc36a7b1c.htm" />
+  <HelpKINode Title="BorrarDetallePedido method" Url="html/7b405e79-751b-6cfa-dd0b-0cf774251cf1.htm" />
+  <HelpKINode Title="BorrarEmpleado method" Url="html/426daaf8-efb0-5b9a-6b26-164fc09f73d9.htm" />
+  <HelpKINode Title="BorrarGamaProducto method" Url="html/8ac41690-8032-d0da-49e5-e79970e47728.htm" />
+  <HelpKINode Title="BorrarPago method">
+    <HelpKINode Title="OficinaADO.BorrarPago Method " Url="html/d2059577-4edf-9500-32f0-589cd09cec33.htm" />
+    <HelpKINode Title="PagoADO.BorrarPago Method " Url="html/aa09cc73-92a0-4d9e-37d6-2da4e150b9aa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BorrarPedido method" Url="html/28b10260-6040-bc76-5f25-450b0bf2b888.htm" />
+  <HelpKINode Title="BorrarProducto method" Url="html/de72a526-46a3-151b-277b-77f90d4bbef9.htm" />
+  <HelpKINode Title="cantidad property" Url="html/33b47fc5-c761-169e-45b6-c83938694a22.htm" />
+  <HelpKINode Title="Cantidad_En_Stock property" Url="html/a62daff4-0e82-3dfd-8bdf-bff9d5fe8085.htm" />
+  <HelpKINode Title="Capa_Datos namespace" Url="html/0d0d1035-7cf1-d490-b351-c1db5a60f153.htm" />
+  <HelpKINode Title="Capa_Datos.ADO class" Url="html/4720d673-4a1d-d6c7-440e-7d5372385980.htm" />
+  <HelpKINode Title="Capa_Datos.ClienteADO class" Url="html/a716f9e9-4a58-6e9b-2c25-98b3d1eed564.htm" />
+  <HelpKINode Title="Capa_Datos.Detalle_PedidoADO class" Url="html/50522f65-4f54-dc08-eb45-84914962c283.htm" />
+  <HelpKINode Title="Capa_Datos.EmpleadoADO class" Url="html/d8825c6e-9d06-dddb-fafc-18722e5ff1fc.htm" />
+  <HelpKINode Title="Capa_Datos.Gama_ProductoADO class" Url="html/f9122b9e-4a67-ac04-15ff-8e70d1deafab.htm" />
+  <HelpKINode Title="Capa_Datos.OficinaADO class" Url="html/19c893b2-21f8-9f45-c164-b3a8beed0c81.htm" />
+  <HelpKINode Title="Capa_Datos.PagoADO class" Url="html/82380b12-fd2d-6691-6c4d-451f608e7d4c.htm" />
+  <HelpKINode Title="Capa_Datos.PedidoADO class" Url="html/0066ed19-cd0f-0745-b5a1-e45dfcdd3a12.htm" />
+  <HelpKINode Title="Capa_Datos.ProductoADO class" Url="html/14dec1d2-2608-02b9-66bf-4a1382cff51f.htm" />
+  <HelpKINode Title="ciudad property" Url="html/4b19bf0a-2883-799b-2800-f03467b01c97.htm" />
+  <HelpKINode Title="Ciudad property" Url="html/d3988256-785e-fd45-2d11-c7fc37a204cf.htm" />
+  <HelpKINode Title="client field" Url="html/050f551f-89dc-1030-e92a-c8f0f5f92f5e.htm" />
+  <HelpKINode Title="Cliente class">
+    <HelpKINode Title="Cliente Class" Url="html/f72f3ee8-db38-f62a-6d3f-c770cc48d799.htm" />
+    <HelpKINode Title="constructor" Url="html/3adeea20-c291-a670-c0a3-812c566f8dfe.htm" />
+    <HelpKINode Title="events" Url="html/62af8b90-e10b-68dc-5567-669f8424fab1.htm" />
+    <HelpKINode Title="methods" Url="html/e2e09f6d-e492-9c3f-9569-c94ecdf7996d.htm" />
+    <HelpKINode Title="properties" Url="html/0982333c-f95f-038a-3b22-56aeb1131baf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Cliente.apellido_contacto property" Url="html/838fa626-dd87-8304-2a33-55031b9aa8cd.htm" />
+  <HelpKINode Title="Cliente.ciudad property" Url="html/4b19bf0a-2883-799b-2800-f03467b01c97.htm" />
+  <HelpKINode Title="Cliente.Cliente constructor" Url="html/3adeea20-c291-a670-c0a3-812c566f8dfe.htm" />
+  <HelpKINode Title="Cliente.codigo_cliente property" Url="html/54cfb8aa-697a-5959-7389-683cef92b503.htm" />
+  <HelpKINode Title="Cliente.codigo_empleado_rep_ventas property" Url="html/9ce8178a-de2a-b27f-6f86-506a6f6ecfd1.htm" />
+  <HelpKINode Title="Cliente.codigo_postal property" Url="html/06235706-ab89-bdbe-0dd3-7cd9a124e847.htm" />
+  <HelpKINode Title="Cliente.fax property" Url="html/87187524-1faf-1deb-3066-8811ab7c322d.htm" />
+  <HelpKINode Title="Cliente.Finalize method" Url="html/9a718ec8-11ad-b1dc-b780-930af06b1bb9.htm" />
+  <HelpKINode Title="Cliente.limite_credito property" Url="html/bf0f6929-aed7-d992-7505-0c408939409d.htm" />
+  <HelpKINode Title="Cliente.linea_direccion1 property" Url="html/a90abf4e-95f2-a497-96f7-fe83b4190702.htm" />
+  <HelpKINode Title="Cliente.linea_direccion2 property" Url="html/0bdd84fd-287e-60fe-ac61-223262e34871.htm" />
+  <HelpKINode Title="Cliente.nombre_cliente property" Url="html/7169e039-738d-c5f0-e0ef-600227d9e619.htm" />
+  <HelpKINode Title="Cliente.nombre_contacto property" Url="html/d6afe316-8b68-30c2-4661-973cca4a1026.htm" />
+  <HelpKINode Title="Cliente.OnPropertyChanged method" Url="html/49ab8a78-bae2-4e0e-bb28-34ee4f6dc1e5.htm" />
+  <HelpKINode Title="Cliente.pais property" Url="html/15409075-1742-2518-9cbf-baac3ca66194.htm" />
+  <HelpKINode Title="Cliente.PropertyChanged event" Url="html/b2889291-b2c5-8d4a-6b49-49691151fd5e.htm" />
+  <HelpKINode Title="Cliente.region property" Url="html/30a35291-47f7-c469-85ed-2ca64986736d.htm" />
+  <HelpKINode Title="Cliente.telefono property" Url="html/9d33793c-55fe-4732-4d31-34053cb2dc5d.htm" />
+  <HelpKINode Title="Cliente.ToString method" Url="html/84b63b84-86ee-a616-dbcc-f9ace0ec1a5e.htm" />
+  <HelpKINode Title="ClienteADO class">
+    <HelpKINode Title="ClienteADO Class" Url="html/a716f9e9-4a58-6e9b-2c25-98b3d1eed564.htm" />
+    <HelpKINode Title="constructor" Url="html/9250464c-bb48-626a-f184-acd912fea8b6.htm" />
+    <HelpKINode Title="fields" Url="html/e7475917-a3f5-5140-9b43-b0eb1330579e.htm" />
+    <HelpKINode Title="methods" Url="html/67f53f8a-0223-a046-f7ab-a18be71ac0d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClienteADO.ActualizarCliente method" Url="html/ceae193a-282f-04c7-e2fe-2a2284c006ee.htm" />
+  <HelpKINode Title="ClienteADO.BorrarCliente method" Url="html/2ecd8274-106b-8e6b-08bc-5b1dc36a7b1c.htm" />
+  <HelpKINode Title="ClienteADO.ClienteADO constructor" Url="html/9250464c-bb48-626a-f184-acd912fea8b6.htm" />
+  <HelpKINode Title="ClienteADO.InsertarCliente method" Url="html/045d1907-3509-cd7e-e6f3-81016df1b46d.htm" />
+  <HelpKINode Title="ClienteADO.LeerCliente method" Url="html/4356cf89-0028-5bc1-3912-baea7ecb6f6b.htm" />
+  <HelpKINode Title="ClienteADO.LeerClientes method" Url="html/6dc4e54c-1481-5e8b-02bd-df4df6445ce7.htm" />
+  <HelpKINode Title="codigo_cliente property" Url="html/54cfb8aa-697a-5959-7389-683cef92b503.htm" />
+  <HelpKINode Title="Codigo_Cliente property">
+    <HelpKINode Title="Pago.Codigo_Cliente Property " Url="html/75c24da0-7b75-5d06-b679-9f080015d63b.htm" />
+    <HelpKINode Title="Pedido.Codigo_Cliente Property " Url="html/5f4cd3bc-42be-e04b-b9fa-79ac07d3b8f1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Codigo_Empleado property" Url="html/2f763179-0d6e-b4ab-5844-1c6f561717e8.htm" />
+  <HelpKINode Title="codigo_empleado_rep_ventas property" Url="html/9ce8178a-de2a-b27f-6f86-506a6f6ecfd1.htm" />
+  <HelpKINode Title="Codigo_Jefe property" Url="html/506c9917-b385-0d43-cc79-71abc6d2bda7.htm" />
+  <HelpKINode Title="Codigo_Oficina property">
+    <HelpKINode Title="Empleado.Codigo_Oficina Property " Url="html/f45e1c2e-abb3-2c67-83df-a40c3fa89c3b.htm" />
+    <HelpKINode Title="Oficina.Codigo_Oficina Property " Url="html/102edf4d-0ff5-43fc-f2f7-3682bd663968.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Codigo_Pedido property" Url="html/6007bc11-8e9b-b203-8fe6-653d47ab2a7f.htm" />
+  <HelpKINode Title="codigo_pedido property" Url="html/f2800029-2257-2a09-3785-8b35c5414293.htm" />
+  <HelpKINode Title="Codigo_Postal property" Url="html/157a71b2-59a6-74f3-c665-6996e16b0c52.htm" />
+  <HelpKINode Title="codigo_postal property" Url="html/06235706-ab89-bdbe-0dd3-7cd9a124e847.htm" />
+  <HelpKINode Title="codigo_producto property" Url="html/c882714b-f2cd-807f-4db4-9055f0d457ac.htm" />
+  <HelpKINode Title="Codigo_Producto property" Url="html/18c7d57e-436b-b42f-53d0-13d3b0102145.htm" />
+  <HelpKINode Title="Comentarios property" Url="html/2e794a9b-1868-927c-c2ae-4ac5d2935a01.htm" />
+  <HelpKINode Title="CompareTo method">
+    <HelpKINode Title="Pedido.CompareTo Method " Url="html/0dcc9e79-11dd-5b60-29c4-1bb7e6f2e496.htm" />
+    <HelpKINode Title="Producto.CompareTo Method " Url="html/74549223-abed-3107-7782-522a6f51fba8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Descripcion property" Url="html/80e2424d-595c-2fc3-8c4f-df0be7212948.htm" />
+  <HelpKINode Title="Descripcion_Html property" Url="html/7c97b380-98a2-0b1e-6227-c9aafb25d3b7.htm" />
+  <HelpKINode Title="Descripcion_Texto property" Url="html/4e70061c-f854-419f-b7d7-91c08c87fa51.htm" />
+  <HelpKINode Title="Detalle_Pedido class">
+    <HelpKINode Title="Detalle_Pedido Class" Url="html/44e42756-8de8-02f5-3c02-3f413f7abd9a.htm" />
+    <HelpKINode Title="constructor" Url="html/b4f231ac-7ef8-fb27-1f2e-ec97bcb10f14.htm" />
+    <HelpKINode Title="methods" Url="html/ec9e7c61-0a54-1b8f-d365-b93668ff8997.htm" />
+    <HelpKINode Title="properties" Url="html/53824122-d6e4-d104-00fa-eb7fcc8a53dd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Detalle_Pedido.cantidad property" Url="html/33b47fc5-c761-169e-45b6-c83938694a22.htm" />
+  <HelpKINode Title="Detalle_Pedido.codigo_pedido property" Url="html/f2800029-2257-2a09-3785-8b35c5414293.htm" />
+  <HelpKINode Title="Detalle_Pedido.codigo_producto property" Url="html/c882714b-f2cd-807f-4db4-9055f0d457ac.htm" />
+  <HelpKINode Title="Detalle_Pedido.Detalle_Pedido constructor" Url="html/b4f231ac-7ef8-fb27-1f2e-ec97bcb10f14.htm" />
+  <HelpKINode Title="Detalle_Pedido.Finalize method" Url="html/a826f86b-f21e-db67-c708-29c6db6326ee.htm" />
+  <HelpKINode Title="Detalle_Pedido.numero_linea property" Url="html/ce1baabe-1628-6965-bddc-abac14e2ebd7.htm" />
+  <HelpKINode Title="Detalle_Pedido.precio_unidad property" Url="html/a3212c82-7aee-165c-106b-69fdb03a3480.htm" />
+  <HelpKINode Title="Detalle_Pedido.ToString method" Url="html/1181862f-5fa9-0aef-d39d-9a5c498ea2ba.htm" />
+  <HelpKINode Title="Detalle_PedidoADO class">
+    <HelpKINode Title="Detalle_PedidoADO Class" Url="html/50522f65-4f54-dc08-eb45-84914962c283.htm" />
+    <HelpKINode Title="constructor" Url="html/d10dceab-6fd6-68c4-83f9-6f4f39974531.htm" />
+    <HelpKINode Title="fields" Url="html/98f10b67-0a34-293e-bd25-3c0a80ccf8d8.htm" />
+    <HelpKINode Title="methods" Url="html/c132424c-e747-c2cc-3c86-320f70a897f3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Detalle_PedidoADO.ActualizaDetallePedido method" Url="html/ff2223b9-ef87-4884-ada3-003b98a893a6.htm" />
+  <HelpKINode Title="Detalle_PedidoADO.BorrarDetallePedido method" Url="html/7b405e79-751b-6cfa-dd0b-0cf774251cf1.htm" />
+  <HelpKINode Title="Detalle_PedidoADO.Detalle_PedidoADO constructor" Url="html/d10dceab-6fd6-68c4-83f9-6f4f39974531.htm" />
+  <HelpKINode Title="Detalle_PedidoADO.InsertarDetallePedido method" Url="html/1955247b-2cd9-2bdb-db27-df74aca1dac6.htm" />
+  <HelpKINode Title="Detalle_PedidoADO.LeerDetallesPedido method" Url="html/63e0f926-eb49-9bd2-c65b-0234d1adbcf2.htm" />
+  <HelpKINode Title="Detalle_PedidoADO.LeerDetallesPedidos method" Url="html/a8770ac6-e040-e6b5-7136-9ad722e9a951.htm" />
+  <HelpKINode Title="Dimensiones property" Url="html/f5b5ae9b-f97f-b9d3-c4ae-e1568170ae0b.htm" />
+  <HelpKINode Title="Email property" Url="html/64913e15-3cdc-ff6b-2eea-61c6d2542acb.htm" />
+  <HelpKINode Title="Empleado class">
+    <HelpKINode Title="Empleado Class" Url="html/d7fa20b8-4706-b634-fb67-78a7928ef718.htm" />
+    <HelpKINode Title="constructor" Url="html/4ec91979-c907-a744-7ffd-448f2cdf1de6.htm" />
+    <HelpKINode Title="methods" Url="html/5fc29e50-af3c-bbea-c8fc-23a75740053c.htm" />
+    <HelpKINode Title="properties" Url="html/91fb5dbd-cf06-ed40-e835-787e5b118365.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Empleado.Apellido1 property" Url="html/2f2cf364-841c-42ed-092f-707235707e48.htm" />
+  <HelpKINode Title="Empleado.Apellido2 property" Url="html/6e7f0f3c-554a-700b-c6b7-9ee8bdd707a9.htm" />
+  <HelpKINode Title="Empleado.Codigo_Empleado property" Url="html/2f763179-0d6e-b4ab-5844-1c6f561717e8.htm" />
+  <HelpKINode Title="Empleado.Codigo_Jefe property" Url="html/506c9917-b385-0d43-cc79-71abc6d2bda7.htm" />
+  <HelpKINode Title="Empleado.Codigo_Oficina property" Url="html/f45e1c2e-abb3-2c67-83df-a40c3fa89c3b.htm" />
+  <HelpKINode Title="Empleado.Email property" Url="html/64913e15-3cdc-ff6b-2eea-61c6d2542acb.htm" />
+  <HelpKINode Title="Empleado.Empleado constructor" Url="html/4ec91979-c907-a744-7ffd-448f2cdf1de6.htm" />
+  <HelpKINode Title="Empleado.Extension property" Url="html/7a189588-0789-de27-10ad-5eef46f9a5db.htm" />
+  <HelpKINode Title="Empleado.Finalize method" Url="html/ea7e7911-fa90-b14f-caeb-15eb8d63989c.htm" />
+  <HelpKINode Title="Empleado.Nombre property" Url="html/af3796d1-db13-7769-6b11-42b96b90d579.htm" />
+  <HelpKINode Title="Empleado.NombreCompleto property" Url="html/919d1049-c8b8-60b3-909d-d879c48bdda4.htm" />
+  <HelpKINode Title="Empleado.Pass property" Url="html/fe6abcf5-e69b-7a1e-7fe3-4eeb53ead8f5.htm" />
+  <HelpKINode Title="Empleado.Puesto property" Url="html/f86bb704-35c7-83c0-aabd-3971e11b23de.htm" />
+  <HelpKINode Title="Empleado.ToString method" Url="html/c834d590-9fc7-6666-db61-bd97dc5a6539.htm" />
+  <HelpKINode Title="EmpleadoADO class">
+    <HelpKINode Title="EmpleadoADO Class" Url="html/d8825c6e-9d06-dddb-fafc-18722e5ff1fc.htm" />
+    <HelpKINode Title="constructor" Url="html/73eb6ff8-8f77-391b-c2aa-dae7a53e28cd.htm" />
+    <HelpKINode Title="fields" Url="html/8c725abe-e1d4-65e1-f5b0-94e7469cc510.htm" />
+    <HelpKINode Title="methods" Url="html/62869964-8cac-6096-df4c-92a9947c0ec2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmpleadoADO.ActualizarEmpleado method" Url="html/f8daf418-acfe-6f75-2b7f-23b8d28a2cf6.htm" />
+  <HelpKINode Title="EmpleadoADO.BorrarEmpleado method" Url="html/426daaf8-efb0-5b9a-6b26-164fc09f73d9.htm" />
+  <HelpKINode Title="EmpleadoADO.EmpleadoADO constructor" Url="html/73eb6ff8-8f77-391b-c2aa-dae7a53e28cd.htm" />
+  <HelpKINode Title="EmpleadoADO.InsertarEmpleado method" Url="html/91d1fcb5-4306-e3c4-5586-e52c35188d0e.htm" />
+  <HelpKINode Title="EmpleadoADO.LeerEmpleado method" Url="html/059d6dbe-68a5-c889-75dd-07666636ea87.htm" />
+  <HelpKINode Title="EmpleadoADO.LeerEmpleados method" Url="html/910c4ebc-5179-2029-bce3-a3c27d2ab2ea.htm" />
+  <HelpKINode Title="Entidades namespace" Url="html/9dbe26fe-a585-3617-4ce6-64f06004a14e.htm" />
+  <HelpKINode Title="Entidades.Cliente class" Url="html/f72f3ee8-db38-f62a-6d3f-c770cc48d799.htm" />
+  <HelpKINode Title="Entidades.Detalle_Pedido class" Url="html/44e42756-8de8-02f5-3c02-3f413f7abd9a.htm" />
+  <HelpKINode Title="Entidades.Empleado class" Url="html/d7fa20b8-4706-b634-fb67-78a7928ef718.htm" />
+  <HelpKINode Title="Entidades.Gama_Producto class" Url="html/7bba35b5-a1e9-8805-178b-34d30ed3d5e5.htm" />
+  <HelpKINode Title="Entidades.Oficina class" Url="html/df34280e-2878-28c7-7d27-81785a02f169.htm" />
+  <HelpKINode Title="Entidades.Pago class" Url="html/e5703735-7682-bb86-bf16-d256856d64f9.htm" />
+  <HelpKINode Title="Entidades.Pedido class" Url="html/f2fd7337-371f-b63b-650d-4fdcfcd1f3c6.htm" />
+  <HelpKINode Title="Entidades.Producto class" Url="html/1ba28f5a-6659-cc7a-3e9a-8714c73e2940.htm" />
+  <HelpKINode Title="Estado property" Url="html/1fefc5a9-5a07-e117-1421-dd81bd157509.htm" />
+  <HelpKINode Title="Extension property" Url="html/7a189588-0789-de27-10ad-5eef46f9a5db.htm" />
+  <HelpKINode Title="fax property" Url="html/87187524-1faf-1deb-3066-8811ab7c322d.htm" />
+  <HelpKINode Title="Fecha_Entrega property" Url="html/332b1eea-d338-52a7-7a80-0513f24ee038.htm" />
+  <HelpKINode Title="Fecha_Esperada property" Url="html/0bc2a31e-68a5-fcfa-dbdb-647b88c1eaa9.htm" />
+  <HelpKINode Title="Fecha_Pago property" Url="html/29214895-0355-f522-a8f0-d0a8f6cdcb55.htm" />
+  <HelpKINode Title="Fecha_Pedido property" Url="html/b7565ea4-113f-82ab-8302-1eaf8cf8b99d.htm" />
+  <HelpKINode Title="Finalize method">
+    <HelpKINode Title="Cliente.Finalize Method " Url="html/9a718ec8-11ad-b1dc-b780-930af06b1bb9.htm" />
+    <HelpKINode Title="Detalle_Pedido.Finalize Method " Url="html/a826f86b-f21e-db67-c708-29c6db6326ee.htm" />
+    <HelpKINode Title="Empleado.Finalize Method " Url="html/ea7e7911-fa90-b14f-caeb-15eb8d63989c.htm" />
+    <HelpKINode Title="Gama_Producto.Finalize Method " Url="html/b68f4d54-6d91-6b24-87bc-daa63be1588f.htm" />
+    <HelpKINode Title="Oficina.Finalize Method " Url="html/782baa00-b2d4-c266-761e-391ebdf9ab81.htm" />
+    <HelpKINode Title="Pago.Finalize Method " Url="html/26aacb88-a358-a5c3-cd0e-cb19ae2046b2.htm" />
+    <HelpKINode Title="Pedido.Finalize Method " Url="html/ff6dd389-c256-28c7-8524-502f522b506a.htm" />
+    <HelpKINode Title="Producto.Finalize Method " Url="html/841de7a9-d049-12ff-c0e7-bb441a16caae.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Forma_pago property" Url="html/23e6f9f8-60b4-41e9-ad37-9cc4cd1872f8.htm" />
+  <HelpKINode Title="Gama property">
+    <HelpKINode Title="Gama_Producto.Gama Property " Url="html/81c7c417-e6d0-e070-0fec-beb27e2102ff.htm" />
+    <HelpKINode Title="Producto.Gama Property " Url="html/4a59845c-7caa-484c-25fa-1d72a385965a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Gama_Producto class">
+    <HelpKINode Title="Gama_Producto Class" Url="html/7bba35b5-a1e9-8805-178b-34d30ed3d5e5.htm" />
+    <HelpKINode Title="constructor" Url="html/5a184b11-34b2-ebe1-5a55-d1c573e1223b.htm" />
+    <HelpKINode Title="methods" Url="html/f9ba5d4a-1c33-5bba-68b6-d7d27bdab664.htm" />
+    <HelpKINode Title="properties" Url="html/68dd6c0a-ec9a-40f7-d1df-f776c44f1b7e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Gama_Producto.Descripcion_Html property" Url="html/7c97b380-98a2-0b1e-6227-c9aafb25d3b7.htm" />
+  <HelpKINode Title="Gama_Producto.Descripcion_Texto property" Url="html/4e70061c-f854-419f-b7d7-91c08c87fa51.htm" />
+  <HelpKINode Title="Gama_Producto.Finalize method" Url="html/b68f4d54-6d91-6b24-87bc-daa63be1588f.htm" />
+  <HelpKINode Title="Gama_Producto.Gama property" Url="html/81c7c417-e6d0-e070-0fec-beb27e2102ff.htm" />
+  <HelpKINode Title="Gama_Producto.Gama_Producto constructor" Url="html/5a184b11-34b2-ebe1-5a55-d1c573e1223b.htm" />
+  <HelpKINode Title="Gama_Producto.Imagen property" Url="html/ceaf4533-46fd-554a-24da-33595410cfa9.htm" />
+  <HelpKINode Title="Gama_Producto.ToString method" Url="html/0acd3323-b9c8-7585-c705-1d9e9297e492.htm" />
+  <HelpKINode Title="Gama_ProductoADO class">
+    <HelpKINode Title="Gama_ProductoADO Class" Url="html/f9122b9e-4a67-ac04-15ff-8e70d1deafab.htm" />
+    <HelpKINode Title="constructor" Url="html/f4cc6f7f-5bb4-c370-b2fc-98edd916a26f.htm" />
+    <HelpKINode Title="fields" Url="html/695e29f2-ef62-bf62-2523-3b6df3b0c740.htm" />
+    <HelpKINode Title="methods" Url="html/5f8b7b69-3ad8-44f0-6c13-f555ca0835a2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Gama_ProductoADO.ActualizarGamaProducto method" Url="html/28511db8-c38e-d6ef-f323-7f35370cb60d.htm" />
+  <HelpKINode Title="Gama_ProductoADO.BorrarGamaProducto method" Url="html/8ac41690-8032-d0da-49e5-e79970e47728.htm" />
+  <HelpKINode Title="Gama_ProductoADO.Gama_ProductoADO constructor" Url="html/f4cc6f7f-5bb4-c370-b2fc-98edd916a26f.htm" />
+  <HelpKINode Title="Gama_ProductoADO.InsertarGamaProducto method" Url="html/5b8cb691-e2e6-60fe-851b-3cbb1aa20378.htm" />
+  <HelpKINode Title="Gama_ProductoADO.LeerGamaProducto method" Url="html/0d9d2d18-1f74-4ee1-59eb-71fbbf3913d3.htm" />
+  <HelpKINode Title="Gama_ProductoADO.LeerGamaProductos method" Url="html/1cc71857-0448-b519-f6cf-65545e07ddfb.htm" />
+  <HelpKINode Title="Id_Transaccion property" Url="html/388b8178-8c07-9da5-5c43-73daa0eb6187.htm" />
+  <HelpKINode Title="Imagen property" Url="html/ceaf4533-46fd-554a-24da-33595410cfa9.htm" />
+  <HelpKINode Title="InsertarCliente method" Url="html/045d1907-3509-cd7e-e6f3-81016df1b46d.htm" />
+  <HelpKINode Title="InsertarDetallePedido method" Url="html/1955247b-2cd9-2bdb-db27-df74aca1dac6.htm" />
+  <HelpKINode Title="InsertarEmpleado method" Url="html/91d1fcb5-4306-e3c4-5586-e52c35188d0e.htm" />
+  <HelpKINode Title="InsertarGamaProducto method" Url="html/5b8cb691-e2e6-60fe-851b-3cbb1aa20378.htm" />
+  <HelpKINode Title="InsertarOficina method" Url="html/6750aa3e-ecb5-e7b3-474d-82f35d9dda46.htm" />
+  <HelpKINode Title="InsertarPago method" Url="html/331cda5a-3e3c-3d98-86bb-34913ad7fc34.htm" />
+  <HelpKINode Title="InsertarPedido method" Url="html/96d704f6-8af6-ff67-5d42-eceaf8d5c264.htm" />
+  <HelpKINode Title="InsertarProducto method" Url="html/24da5ed3-bb3a-6f83-090a-25b77ff117da.htm" />
+  <HelpKINode Title="LeerCliente method" Url="html/4356cf89-0028-5bc1-3912-baea7ecb6f6b.htm" />
+  <HelpKINode Title="LeerClientes method" Url="html/6dc4e54c-1481-5e8b-02bd-df4df6445ce7.htm" />
+  <HelpKINode Title="LeerDetallesPedido method" Url="html/63e0f926-eb49-9bd2-c65b-0234d1adbcf2.htm" />
+  <HelpKINode Title="LeerDetallesPedidos method" Url="html/a8770ac6-e040-e6b5-7136-9ad722e9a951.htm" />
+  <HelpKINode Title="LeerEmpleado method" Url="html/059d6dbe-68a5-c889-75dd-07666636ea87.htm" />
+  <HelpKINode Title="LeerEmpleados method" Url="html/910c4ebc-5179-2029-bce3-a3c27d2ab2ea.htm" />
+  <HelpKINode Title="LeerGamaProducto method" Url="html/0d9d2d18-1f74-4ee1-59eb-71fbbf3913d3.htm" />
+  <HelpKINode Title="LeerGamaProductos method" Url="html/1cc71857-0448-b519-f6cf-65545e07ddfb.htm" />
+  <HelpKINode Title="LeerOficina method" Url="html/65834e84-1134-153a-f021-da98108a214f.htm" />
+  <HelpKINode Title="LeerOficinas method" Url="html/4f657af0-dbab-ca7c-aea7-1c2c865ace6c.htm" />
+  <HelpKINode Title="LeerPago method" Url="html/bcf0542f-3f43-1822-9623-8fb7e764b320.htm" />
+  <HelpKINode Title="LeerPagos method" Url="html/d6c0c47a-c4d0-895b-22b0-2324cde6e1e9.htm" />
+  <HelpKINode Title="LeerPedido method" Url="html/70858d0e-036f-c3df-dff2-1dd57c65f10e.htm" />
+  <HelpKINode Title="LeerPedidos method" Url="html/7cb7f4ac-e814-47f7-b8e4-abf1afa31254.htm" />
+  <HelpKINode Title="LeerProducto method" Url="html/34664b68-9cd3-4c55-e2d9-db857494f410.htm" />
+  <HelpKINode Title="LeerProductos method" Url="html/a990d02e-578a-8c98-9254-25a8fe89e548.htm" />
+  <HelpKINode Title="limite_credito property" Url="html/bf0f6929-aed7-d992-7505-0c408939409d.htm" />
+  <HelpKINode Title="linea_direccion1 property" Url="html/a90abf4e-95f2-a497-96f7-fe83b4190702.htm" />
+  <HelpKINode Title="linea_direccion2 property" Url="html/0bdd84fd-287e-60fe-ac61-223262e34871.htm" />
+  <HelpKINode Title="Linea_Direccion_1 property" Url="html/5e92541f-8999-f26e-957a-48ac783eaa01.htm" />
+  <HelpKINode Title="Linea_Direccion_2 property" Url="html/3ac7eb7b-c4de-084e-be23-8e84e347ba2c.htm" />
+  <HelpKINode Title="Nombre property">
+    <HelpKINode Title="Empleado.Nombre Property " Url="html/af3796d1-db13-7769-6b11-42b96b90d579.htm" />
+    <HelpKINode Title="Producto.Nombre Property " Url="html/a20cd2f5-f459-dcf7-8e82-4608d4c7f1d0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NombreCompleto property" Url="html/919d1049-c8b8-60b3-909d-d879c48bdda4.htm" />
+  <HelpKINode Title="nombre_cliente property" Url="html/7169e039-738d-c5f0-e0ef-600227d9e619.htm" />
+  <HelpKINode Title="nombre_contacto property" Url="html/d6afe316-8b68-30c2-4661-973cca4a1026.htm" />
+  <HelpKINode Title="numero_linea property" Url="html/ce1baabe-1628-6965-bddc-abac14e2ebd7.htm" />
+  <HelpKINode Title="Oficina class">
+    <HelpKINode Title="Oficina Class" Url="html/df34280e-2878-28c7-7d27-81785a02f169.htm" />
+    <HelpKINode Title="constructor" Url="html/41bd920b-bb7f-fca6-7e68-ea696f6180cc.htm" />
+    <HelpKINode Title="methods" Url="html/61bbaf25-36a5-a5db-7036-99b9ceeaef7a.htm" />
+    <HelpKINode Title="properties" Url="html/667e8528-a1c1-5f23-2508-08b6837cb462.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Oficina.Ciudad property" Url="html/d3988256-785e-fd45-2d11-c7fc37a204cf.htm" />
+  <HelpKINode Title="Oficina.Codigo_Oficina property" Url="html/102edf4d-0ff5-43fc-f2f7-3682bd663968.htm" />
+  <HelpKINode Title="Oficina.Codigo_Postal property" Url="html/157a71b2-59a6-74f3-c665-6996e16b0c52.htm" />
+  <HelpKINode Title="Oficina.Finalize method" Url="html/782baa00-b2d4-c266-761e-391ebdf9ab81.htm" />
+  <HelpKINode Title="Oficina.Linea_Direccion_1 property" Url="html/5e92541f-8999-f26e-957a-48ac783eaa01.htm" />
+  <HelpKINode Title="Oficina.Linea_Direccion_2 property" Url="html/3ac7eb7b-c4de-084e-be23-8e84e347ba2c.htm" />
+  <HelpKINode Title="Oficina.Oficina constructor" Url="html/41bd920b-bb7f-fca6-7e68-ea696f6180cc.htm" />
+  <HelpKINode Title="Oficina.Pais property" Url="html/f931246a-6cf0-cbc5-cd3a-1c53be922a24.htm" />
+  <HelpKINode Title="Oficina.Region property" Url="html/77e3b938-3b50-47cd-79a9-69461d43d65e.htm" />
+  <HelpKINode Title="Oficina.Telefono property" Url="html/a058c434-0641-ed8e-e27e-b26daec4dbf3.htm" />
+  <HelpKINode Title="Oficina.ToString method" Url="html/9574c6a5-f7cd-b34e-85a6-ada94a265b92.htm" />
+  <HelpKINode Title="OficinaADO class">
+    <HelpKINode Title="OficinaADO Class" Url="html/19c893b2-21f8-9f45-c164-b3a8beed0c81.htm" />
+    <HelpKINode Title="constructor" Url="html/acfcb8a6-5b22-0033-0d2e-654ed7680422.htm" />
+    <HelpKINode Title="fields" Url="html/29450f60-95d1-6e05-05f2-83e3ec6bec52.htm" />
+    <HelpKINode Title="methods" Url="html/fe095676-d07d-03fa-72f9-a6067db4d9f3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OficinaADO.ActualizarOficina method" Url="html/4191a75f-d094-2483-dc9f-688d7afb6986.htm" />
+  <HelpKINode Title="OficinaADO.BorrarPago method" Url="html/d2059577-4edf-9500-32f0-589cd09cec33.htm" />
+  <HelpKINode Title="OficinaADO.InsertarOficina method" Url="html/6750aa3e-ecb5-e7b3-474d-82f35d9dda46.htm" />
+  <HelpKINode Title="OficinaADO.LeerOficina method" Url="html/65834e84-1134-153a-f021-da98108a214f.htm" />
+  <HelpKINode Title="OficinaADO.LeerOficinas method" Url="html/4f657af0-dbab-ca7c-aea7-1c2c865ace6c.htm" />
+  <HelpKINode Title="OficinaADO.OficinaADO constructor" Url="html/acfcb8a6-5b22-0033-0d2e-654ed7680422.htm" />
+  <HelpKINode Title="OnPropertyChanged method" Url="html/49ab8a78-bae2-4e0e-bb28-34ee4f6dc1e5.htm" />
+  <HelpKINode Title="Pago class">
+    <HelpKINode Title="Pago Class" Url="html/e5703735-7682-bb86-bf16-d256856d64f9.htm" />
+    <HelpKINode Title="constructor" Url="html/abbacda5-0d09-22ac-d623-9049d655b509.htm" />
+    <HelpKINode Title="methods" Url="html/6aacf0f4-0305-88d5-d2a7-791616ddffb8.htm" />
+    <HelpKINode Title="properties" Url="html/0787df2a-42a7-c404-3335-be00974c011e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Pago.Codigo_Cliente property" Url="html/75c24da0-7b75-5d06-b679-9f080015d63b.htm" />
+  <HelpKINode Title="Pago.Fecha_Pago property" Url="html/29214895-0355-f522-a8f0-d0a8f6cdcb55.htm" />
+  <HelpKINode Title="Pago.Finalize method" Url="html/26aacb88-a358-a5c3-cd0e-cb19ae2046b2.htm" />
+  <HelpKINode Title="Pago.Forma_pago property" Url="html/23e6f9f8-60b4-41e9-ad37-9cc4cd1872f8.htm" />
+  <HelpKINode Title="Pago.Id_Transaccion property" Url="html/388b8178-8c07-9da5-5c43-73daa0eb6187.htm" />
+  <HelpKINode Title="Pago.Pago constructor" Url="html/abbacda5-0d09-22ac-d623-9049d655b509.htm" />
+  <HelpKINode Title="Pago.ToString method" Url="html/bd77d0cb-5ba2-0edc-ffd8-7dc8d0a0552a.htm" />
+  <HelpKINode Title="Pago.Total property" Url="html/1fe586dc-2c8e-72c2-cb53-6564998b3314.htm" />
+  <HelpKINode Title="PagoADO class">
+    <HelpKINode Title="PagoADO Class" Url="html/82380b12-fd2d-6691-6c4d-451f608e7d4c.htm" />
+    <HelpKINode Title="constructor" Url="html/6aba8342-19b3-b3f0-8c08-37bcb2460d4e.htm" />
+    <HelpKINode Title="fields" Url="html/e5f666bc-7a1f-afdf-ff94-53c9a4b6c25c.htm" />
+    <HelpKINode Title="methods" Url="html/f8ace443-1594-19ab-a30a-653869584389.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PagoADO.ActualizarPago method" Url="html/2f104a8f-2768-149f-8f46-490326359389.htm" />
+  <HelpKINode Title="PagoADO.BorrarPago method" Url="html/aa09cc73-92a0-4d9e-37d6-2da4e150b9aa.htm" />
+  <HelpKINode Title="PagoADO.InsertarPago method" Url="html/331cda5a-3e3c-3d98-86bb-34913ad7fc34.htm" />
+  <HelpKINode Title="PagoADO.LeerPago method" Url="html/bcf0542f-3f43-1822-9623-8fb7e764b320.htm" />
+  <HelpKINode Title="PagoADO.LeerPagos method" Url="html/d6c0c47a-c4d0-895b-22b0-2324cde6e1e9.htm" />
+  <HelpKINode Title="PagoADO.PagoADO constructor" Url="html/6aba8342-19b3-b3f0-8c08-37bcb2460d4e.htm" />
+  <HelpKINode Title="Pais property" Url="html/f931246a-6cf0-cbc5-cd3a-1c53be922a24.htm" />
+  <HelpKINode Title="pais property" Url="html/15409075-1742-2518-9cbf-baac3ca66194.htm" />
+  <HelpKINode Title="Pass property" Url="html/fe6abcf5-e69b-7a1e-7fe3-4eeb53ead8f5.htm" />
+  <HelpKINode Title="Pedido class">
+    <HelpKINode Title="Pedido Class" Url="html/f2fd7337-371f-b63b-650d-4fdcfcd1f3c6.htm" />
+    <HelpKINode Title="constructor" Url="html/6f17cfbd-d8ed-64cd-f1cd-c6077db262cf.htm" />
+    <HelpKINode Title="methods" Url="html/00a543e7-066d-9bc0-4359-5f4d3e1df723.htm" />
+    <HelpKINode Title="properties" Url="html/f27bfd9c-9b11-513c-f04c-dd09780dab9a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Pedido.Codigo_Cliente property" Url="html/5f4cd3bc-42be-e04b-b9fa-79ac07d3b8f1.htm" />
+  <HelpKINode Title="Pedido.Codigo_Pedido property" Url="html/6007bc11-8e9b-b203-8fe6-653d47ab2a7f.htm" />
+  <HelpKINode Title="Pedido.Comentarios property" Url="html/2e794a9b-1868-927c-c2ae-4ac5d2935a01.htm" />
+  <HelpKINode Title="Pedido.CompareTo method" Url="html/0dcc9e79-11dd-5b60-29c4-1bb7e6f2e496.htm" />
+  <HelpKINode Title="Pedido.Estado property" Url="html/1fefc5a9-5a07-e117-1421-dd81bd157509.htm" />
+  <HelpKINode Title="Pedido.Fecha_Entrega property" Url="html/332b1eea-d338-52a7-7a80-0513f24ee038.htm" />
+  <HelpKINode Title="Pedido.Fecha_Esperada property" Url="html/0bc2a31e-68a5-fcfa-dbdb-647b88c1eaa9.htm" />
+  <HelpKINode Title="Pedido.Fecha_Pedido property" Url="html/b7565ea4-113f-82ab-8302-1eaf8cf8b99d.htm" />
+  <HelpKINode Title="Pedido.Finalize method" Url="html/ff6dd389-c256-28c7-8524-502f522b506a.htm" />
+  <HelpKINode Title="Pedido.Pedido constructor" Url="html/6f17cfbd-d8ed-64cd-f1cd-c6077db262cf.htm" />
+  <HelpKINode Title="Pedido.ToString method" Url="html/0a99d4f1-b3f7-e3ab-23a4-198f99136ea7.htm" />
+  <HelpKINode Title="PedidoADO class">
+    <HelpKINode Title="PedidoADO Class" Url="html/0066ed19-cd0f-0745-b5a1-e45dfcdd3a12.htm" />
+    <HelpKINode Title="constructor" Url="html/fcb0fa00-e354-f6a1-ebce-e71cbfb924f1.htm" />
+    <HelpKINode Title="fields" Url="html/3ab2b2d7-616d-eef8-a3b1-e66b14de707e.htm" />
+    <HelpKINode Title="methods" Url="html/e08c4d71-543f-4668-97b4-2e65848e3c59.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PedidoADO.ActualizarPedido method" Url="html/a9b96adb-90c0-50bf-8291-cd41e29b6901.htm" />
+  <HelpKINode Title="PedidoADO.BorrarPedido method" Url="html/28b10260-6040-bc76-5f25-450b0bf2b888.htm" />
+  <HelpKINode Title="PedidoADO.InsertarPedido method" Url="html/96d704f6-8af6-ff67-5d42-eceaf8d5c264.htm" />
+  <HelpKINode Title="PedidoADO.LeerPedido method" Url="html/70858d0e-036f-c3df-dff2-1dd57c65f10e.htm" />
+  <HelpKINode Title="PedidoADO.LeerPedidos method" Url="html/7cb7f4ac-e814-47f7-b8e4-abf1afa31254.htm" />
+  <HelpKINode Title="PedidoADO.PedidoADO constructor" Url="html/fcb0fa00-e354-f6a1-ebce-e71cbfb924f1.htm" />
+  <HelpKINode Title="Precio_Proveedor property" Url="html/23d3f0a5-35af-b8e1-b7f4-7b376fc04b77.htm" />
+  <HelpKINode Title="precio_unidad property" Url="html/a3212c82-7aee-165c-106b-69fdb03a3480.htm" />
+  <HelpKINode Title="Precio_Venta property" Url="html/e47920f6-a1ff-f8e1-f44b-a78a1c1093d9.htm" />
+  <HelpKINode Title="Producto class">
+    <HelpKINode Title="Producto Class" Url="html/1ba28f5a-6659-cc7a-3e9a-8714c73e2940.htm" />
+    <HelpKINode Title="constructor" Url="html/ba748046-0a69-feb2-cac3-0394b4962aa8.htm" />
+    <HelpKINode Title="methods" Url="html/6ac0f229-504d-c1f7-6b7a-c200d8f0b93b.htm" />
+    <HelpKINode Title="properties" Url="html/c2f98405-f9fe-c0c1-f5cd-d1fdd92917b3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Producto.Cantidad_En_Stock property" Url="html/a62daff4-0e82-3dfd-8bdf-bff9d5fe8085.htm" />
+  <HelpKINode Title="Producto.Codigo_Producto property" Url="html/18c7d57e-436b-b42f-53d0-13d3b0102145.htm" />
+  <HelpKINode Title="Producto.CompareTo method" Url="html/74549223-abed-3107-7782-522a6f51fba8.htm" />
+  <HelpKINode Title="Producto.Descripcion property" Url="html/80e2424d-595c-2fc3-8c4f-df0be7212948.htm" />
+  <HelpKINode Title="Producto.Dimensiones property" Url="html/f5b5ae9b-f97f-b9d3-c4ae-e1568170ae0b.htm" />
+  <HelpKINode Title="Producto.Finalize method" Url="html/841de7a9-d049-12ff-c0e7-bb441a16caae.htm" />
+  <HelpKINode Title="Producto.Gama property" Url="html/4a59845c-7caa-484c-25fa-1d72a385965a.htm" />
+  <HelpKINode Title="Producto.Nombre property" Url="html/a20cd2f5-f459-dcf7-8e82-4608d4c7f1d0.htm" />
+  <HelpKINode Title="Producto.Precio_Proveedor property" Url="html/23d3f0a5-35af-b8e1-b7f4-7b376fc04b77.htm" />
+  <HelpKINode Title="Producto.Precio_Venta property" Url="html/e47920f6-a1ff-f8e1-f44b-a78a1c1093d9.htm" />
+  <HelpKINode Title="Producto.Producto constructor" Url="html/ba748046-0a69-feb2-cac3-0394b4962aa8.htm" />
+  <HelpKINode Title="Producto.Proveedor property" Url="html/a5c15e63-cd1b-a86d-2a4b-97ae3a7acba6.htm" />
+  <HelpKINode Title="Producto.ToString method" Url="html/ad1c8083-b3f6-4f60-ce89-7b7b990f9050.htm" />
+  <HelpKINode Title="ProductoADO class">
+    <HelpKINode Title="ProductoADO Class" Url="html/14dec1d2-2608-02b9-66bf-4a1382cff51f.htm" />
+    <HelpKINode Title="constructor" Url="html/2c137672-2bd8-aaa4-434d-efb41710d90c.htm" />
+    <HelpKINode Title="fields" Url="html/329fe607-b950-fdf3-42e7-356dc6d54c60.htm" />
+    <HelpKINode Title="methods" Url="html/5fddfaec-05ea-c1f7-df71-27156c2a68d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProductoADO.ActualizarProducto method" Url="html/dc749efe-2cd9-742d-8ed8-2c0c7b1a72f5.htm" />
+  <HelpKINode Title="ProductoADO.BorrarProducto method" Url="html/de72a526-46a3-151b-277b-77f90d4bbef9.htm" />
+  <HelpKINode Title="ProductoADO.InsertarProducto method" Url="html/24da5ed3-bb3a-6f83-090a-25b77ff117da.htm" />
+  <HelpKINode Title="ProductoADO.LeerProducto method" Url="html/34664b68-9cd3-4c55-e2d9-db857494f410.htm" />
+  <HelpKINode Title="ProductoADO.LeerProductos method" Url="html/a990d02e-578a-8c98-9254-25a8fe89e548.htm" />
+  <HelpKINode Title="ProductoADO.ProductoADO constructor" Url="html/2c137672-2bd8-aaa4-434d-efb41710d90c.htm" />
+  <HelpKINode Title="PropertyChanged event" Url="html/b2889291-b2c5-8d4a-6b49-49691151fd5e.htm" />
+  <HelpKINode Title="Proveedor property" Url="html/a5c15e63-cd1b-a86d-2a4b-97ae3a7acba6.htm" />
+  <HelpKINode Title="Puesto property" Url="html/f86bb704-35c7-83c0-aabd-3971e11b23de.htm" />
+  <HelpKINode Title="region property" Url="html/30a35291-47f7-c469-85ed-2ca64986736d.htm" />
+  <HelpKINode Title="Region property" Url="html/77e3b938-3b50-47cd-79a9-69461d43d65e.htm" />
+  <HelpKINode Title="telefono property" Url="html/9d33793c-55fe-4732-4d31-34053cb2dc5d.htm" />
+  <HelpKINode Title="Telefono property" Url="html/a058c434-0641-ed8e-e27e-b26daec4dbf3.htm" />
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="Cliente.ToString Method " Url="html/84b63b84-86ee-a616-dbcc-f9ace0ec1a5e.htm" />
+    <HelpKINode Title="Detalle_Pedido.ToString Method " Url="html/1181862f-5fa9-0aef-d39d-9a5c498ea2ba.htm" />
+    <HelpKINode Title="Empleado.ToString Method " Url="html/c834d590-9fc7-6666-db61-bd97dc5a6539.htm" />
+    <HelpKINode Title="Gama_Producto.ToString Method " Url="html/0acd3323-b9c8-7585-c705-1d9e9297e492.htm" />
+    <HelpKINode Title="Oficina.ToString Method " Url="html/9574c6a5-f7cd-b34e-85a6-ada94a265b92.htm" />
+    <HelpKINode Title="Pago.ToString Method " Url="html/bd77d0cb-5ba2-0edc-ffd8-7dc8d0a0552a.htm" />
+    <HelpKINode Title="Pedido.ToString Method " Url="html/0a99d4f1-b3f7-e3ab-23a4-198f99136ea7.htm" />
+    <HelpKINode Title="Producto.ToString Method " Url="html/ad1c8083-b3f6-4f60-ce89-7b7b990f9050.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Total property" Url="html/1fe586dc-2c8e-72c2-cb53-6564998b3314.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/955969f4-39ae-44a7-8fad-fb459f2decde.htm" />
+    <HelpKINode Title="history" Url="html/0a4263e3-343a-48ca-a35a-0bd526c29f4b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Welcome" Url="html/ba945b3b-0bac-426b-b1cc-325fff1e92a6.htm" />
+</HelpKI>

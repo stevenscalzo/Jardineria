@@ -1,0 +1,434 @@
+﻿<Window x:Class="JardineriaWPF.Main.Principal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JardineriaWPF.Main"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="Principal" 
+        Height="960"
+        Width="1280"
+        Loaded="Window_Loaded"
+        >
+    <Window.Resources>
+        <CollectionViewSource  x:Key="ultimosPedidos10"  Source="{Binding}" />
+    </Window.Resources>
+    <Grid Background="WhiteSmoke">
+        <WrapPanel x:Name="w_Panel" Orientation="Horizontal" >
+            <Grid x:Name="panel"
+                HorizontalAlignment="Left"
+                Width="90"
+                Background="#3370db"
+                Height="960">
+
+                <StackPanel x:Name="stk_panel">
+                    <Grid Margin="10,0,0,0" Height="90">
+                        <Label FontSize="45" Foreground="White">Jardinería 2.0</Label>
+                    </Grid>
+                    <WrapPanel Orientation="Vertical"
+                               Margin="0,150,0,0">
+                        <Button x:Name="btn_Producto"
+                                Click="btn_Producto_Click" 
+                                Style="{StaticResource panelButtonStyle}">
+                            <WrapPanel Orientation="Horizontal" 
+                                       Width="310" 
+                                       Margin="10,0,0,0">
+                                <Image Source="../Iconos 2020/producto.png" Height="70"/>
+                                <Label Content="Productos" FontSize="20" Margin="10,0,0,0" Foreground="White" Height="38" Width="194" RenderTransformOrigin="0.543,0.891"  />
+
+                            </WrapPanel>
+                        </Button>
+
+                        <Button x:Name="btn_Pedido"
+                                Click="btn_Pedido_Click" 
+                                Style="{StaticResource panelButtonStyle}">
+                            <WrapPanel Orientation="Horizontal" 
+                                       Width="310" 
+                                       Margin="10,0,0,0">
+                                <Image Source="../Iconos 2020/venta.png" Height="70"/>
+                                <Label Content="Pedidos" FontSize="20" Margin="10,0,0,0" Foreground="White" Height="38" Width="194" RenderTransformOrigin="0.543,0.891"  />
+
+                            </WrapPanel>
+                        </Button>
+                        <Button x:Name="btn_Clientes"
+                                Click="btn_Clientes_Click"
+                                Style="{StaticResource panelButtonStyle}">
+                            <WrapPanel Orientation="Horizontal" 
+                                       Width="310" 
+                                       Margin="10,0,0,0">
+                                <Image Source="../Iconos 2020/clientes.png" Height="70"/>
+                                <Label Content="Clientes" FontSize="20" Margin="10,0,0,0" Foreground="White" Height="38" Width="194" RenderTransformOrigin="0.543,0.891"  />
+
+                            </WrapPanel>
+                        </Button>
+                        <Button x:Name="btn_Estadísticas"
+                                Click="btn_Estadísticas_Click"
+                                Style="{StaticResource panelButtonStyle}">
+                            <WrapPanel Orientation="Horizontal" 
+                                       Width="310" 
+                                       Margin="10,0,0,0">
+                                <Image Source="../Iconos 2020/reportes.png" Height="70"/>
+                                <Label Content="Estadísticas" FontSize="20" Margin="10,0,0,0" Foreground="White" Height="38" Width="194" RenderTransformOrigin="0.543,0.891"  />
+
+                            </WrapPanel>
+                        </Button>
+                        <Button Style="{StaticResource panelButtonStyle}"
+                                Name="informes"
+                                Click="informes_Click">
+                            <WrapPanel Orientation="Horizontal" 
+                                       Width="310" 
+                                       Margin="10,0,0,0">
+                                <Image Source="../Iconos 2020/venta.png" Height="70"/>
+                                <Label Content="Productos" FontSize="20" Margin="10,0,0,0" Foreground="White" Height="38" Width="194" RenderTransformOrigin="0.543,0.891"  />
+
+                            </WrapPanel>
+                        </Button>
+                    </WrapPanel>
+
+                       
+                    <WrapPanel Orientation="Horizontal"
+                               Height="80"
+                               Margin="0,200,0,0">
+                        <ListViewItem HorizontalAlignment="Left"
+                                              Margin="0,00,0,0" Height="75" Width="100">
+                            <Image Source="../Iconos 2020/boss_man-128.png" Height="75" Width="95" RenderTransformOrigin="0.178,0.489"  />
+
+                        </ListViewItem>
+                        <WrapPanel Width="181">
+                            <ListViewItem HorizontalAlignment="Right"
+                                    Margin="0,0,0,0" >
+                                <Label x:Name="Cargo" Content="Cargo" 
+                                        FontSize="12"
+                                        Margin="0,-5,0,0" 
+                                        Foreground="White"  
+                                        Width="174" Height="27"  />
+                            </ListViewItem>
+                            <ListViewItem HorizontalAlignment="Right"
+                                    Margin="0,-10,0,0" 
+                                    Height="28">
+                                <Label x:Name="Usuario" 
+                                        Content="Usuario" 
+                                        FontSize="12" 
+                                        Foreground="White"
+                                        Width="174" 
+                                        RenderTransformOrigin="0.543,0.891"
+                                        Height="28"  />
+
+                            </ListViewItem>
+                            <ListViewItem HorizontalAlignment="Right"
+                                                  Margin="0,0,0,0" >
+                                <Label x:Name="Correo"
+                                       Content="Correo"
+                                       FontSize="12" 
+                                       Margin="0,-5,0,0" 
+                                       Foreground="White"  
+                                       Width="174" 
+                                       RenderTransformOrigin="0.543,0.891"  />
+
+                            </ListViewItem>
+                        </WrapPanel>
+                    </WrapPanel>
+
+                </StackPanel>
+
+            </Grid>
+            <WrapPanel x:Name="opcionesMenu"  Orientation="Vertical">
+            </WrapPanel>
+            <Grid x:Name="gridPrincipal" Background="Transparent" Width="1155" >
+                <WrapPanel Orientation="Vertical" >
+                    <WrapPanel  x:Name="panelTop" Orientation="Horizontal" Width="1155">
+                        <ToggleButton x:Name="tog_bn" 
+                                      Background="Transparent"
+                                      Grid.Column="0"
+                                      Click="tog_bn_Click"
+                                      VerticalAlignment="Center"
+                                      HorizontalAlignment="Left"
+                                      BorderThickness="0" Height="54" Width="60">
+                            <Image Source="../Iconos 2020/Mobile-Menu-Icon.png" Height="38" Width="45"></Image>
+
+                            <ToggleButton.Triggers>
+                                <EventTrigger RoutedEvent="ToggleButton.Unchecked">
+                                    <BeginStoryboard>
+                                        <Storyboard x:Name="HideStackPanel">
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panel"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="310" To="90"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="gridPrincipal"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="935" To="1155"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panelFichas"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="935" To="1155"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panelData"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="935" To="1155"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panelTop"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="935" To="1155"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panelTopContent"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="875" To="1095"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+
+                                <EventTrigger RoutedEvent="ToggleButton.Checked">
+                                    <BeginStoryboard>
+                                        <Storyboard x:Name="ShowStackPanel">
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panel"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="90" To="310"
+                                                Duration="0:0:0.3">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="gridPrincipal"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="1155" To="935"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panelFichas"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="1155" To="935"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panelData"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="1155" To="935"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panelTop"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="1155" To="935"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                            <DoubleAnimation
+                                                Storyboard.TargetName="panelTopContent"
+                                                Storyboard.TargetProperty="Width"
+                                                BeginTime="0:0:0"
+                                                From="1095" To="875"
+                                                Duration="0:0:0.2">
+
+                                            </DoubleAnimation>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                            </ToggleButton.Triggers>
+                        </ToggleButton>
+                        <WrapPanel FlowDirection="RightToLeft"  
+                                   x:Name="panelTopContent" 
+                                   Orientation="Horizontal" 
+                                   Width="1095" 
+                                   Margin="0,10,0,0">
+                            <Button x:Name="cerrar"
+                                    Height="28" 
+                                    Click="cerrar_Click"
+                                    Background="Transparent"
+                                    Width="30"  BorderThickness="0"  
+                                    RenderTransformOrigin="17.559,0.408">
+                                <Image Source="../Iconos 2020/new iconos/icon cerrar2.png" Stretch="Fill"/>
+                            </Button>
+                            <Button x:Name="maximizar"
+                                    Height="28" 
+                                    Click="maximizar_Click" 
+                                    Background="Transparent" 
+                                    Width="30" 
+                                    BorderThickness="0" >
+                                <Image Source="../Iconos 2020/new iconos/icon maximizar.png" Stretch="Fill"/>
+                            </Button>
+                            <Button x:Name="minimizar" 
+                                    Height="28"                                    
+                                    Click="minimazar_Click"
+                                    Background="Transparent" Width="30" 
+                                    BorderThickness="0"  
+                                    RenderTransformOrigin="17.559,0.408">
+                                <Image Source="../Iconos 2020/new iconos/icon minimizar.png" Stretch="Fill"/>
+                            </Button>
+                        </WrapPanel>
+                    </WrapPanel>
+                    
+                    <Label  FontSize="20" Margin="10,0,0,0" Foreground="Gray">Resumen del sistema:</Label>
+                    <WrapPanel  x:Name="panelFichas" Orientation="Horizontal" Height="205" Width="1151" >
+                        <Border BorderBrush="#3e4550"  BorderThickness="1" Width="150" Margin="15,0,0,0" Height="205">
+                            <WrapPanel Orientation="Vertical" Width="150" Margin="0,0,-2,-1" >
+                                <Label Width="160" 
+                                       FontSize="20"
+                                       Foreground="White"
+                                       Background="  #3e4550  "
+                                       HorizontalContentAlignment="Center" 
+                                       Height="40">Clientes</Label>
+                                <Image Source="../Iconos 2020/new iconos/Clientes.png" 
+                                       Width="100"
+                                       Margin="0,10,0,0"/>
+                                <Label Margin="0,0,0,0" 
+                                       x:Name="numClientes"
+                                       Content="00" 
+                                       Foreground="Green" 
+                                       FontSize="20"
+                                       HorizontalContentAlignment="Center"></Label>
+                            </WrapPanel>
+                        </Border>
+                        <Border BorderBrush="#3e4550"  BorderThickness="1" Width="150" Margin="15,0,0,0" Height="205">
+                            <WrapPanel Orientation="Vertical" Width="150" Margin="0,0,-2,-1" >
+                                <Label Width="160" 
+                                       FontSize="20"
+                                       Foreground="White"
+                                       Background="  #3e4550  "
+                                       HorizontalContentAlignment="Center" 
+                                       Height="40">Empleados</Label>
+                                <Image Source="../Iconos 2020/new iconos/empleados.png" 
+                                       Width="100"
+                                       Margin="0,10,0,0"/>
+                                <Label Margin="0,0,0,0" 
+                                       Content="00" 
+                                       x:Name="numEmpleados"
+                                       Foreground="Blue" 
+                                       FontSize="20"
+                                       HorizontalContentAlignment="Center"></Label>
+                            </WrapPanel>
+                        </Border>
+                        <Border BorderBrush="#3e4550"  BorderThickness="1" Width="150" Margin="15,0,0,0" Height="205">
+                            <WrapPanel Orientation="Vertical" Width="150" Margin="0,0,-2,-1" >
+                                <Label Width="160" 
+                                       FontSize="20"
+                                       Foreground="White"
+                                       Background="  #3e4550  "
+                                       HorizontalContentAlignment="Center" 
+                                       Height="40">Productos</Label>
+                                <Image Source="../Iconos 2020/new iconos/pc.png" 
+                                       Width="100"
+                                       Margin="0,10,0,0"/>
+                                <Label Margin="0,0,0,0" 
+                                       Content="00" 
+                                       x:Name="numProductos"
+                                       Foreground="Aqua" 
+                                       FontSize="20"
+                                       HorizontalContentAlignment="Center"></Label>
+                            </WrapPanel>
+                        </Border>
+                        <Border BorderBrush="#3e4550"  BorderThickness="1" Width="150" Margin="15,0,0,0" Height="205">
+                            <WrapPanel Orientation="Vertical" Width="150" Margin="0,0,-2,-1" >
+                                <Label Width="160" 
+                                       FontSize="20"
+                                       Foreground="White"
+                                       Background="  #3e4550  "
+                                       HorizontalContentAlignment="Center" 
+                                       Height="40">Pedidos</Label>
+                                <Image Source="../Iconos 2020/new iconos/ventas.png" 
+                                       Width="100"
+                                       Margin="0,10,0,0"/>
+                                <Label Margin="0,0,0,0" 
+                                       Content="00" 
+                                       x:Name="numPedidos"
+                                       Foreground="Red" 
+                                       FontSize="20"
+                                       HorizontalContentAlignment="Center"></Label>
+                            </WrapPanel>
+                        </Border>
+                        <Border BorderBrush="#3e4550"  BorderThickness="1" Width="150" Margin="15,0,0,0" Height="205">
+                            <WrapPanel Orientation="Vertical" Width="150" Margin="0,0,-2,-1" >
+                                <Label Width="160" 
+                                       FontSize="20"
+                                       Foreground="White"
+                                       Background="  #3e4550  "
+                                       HorizontalContentAlignment="Center" 
+                                       Height="40">Caja diaria</Label>
+                                <Image Source="../Iconos 2020/new iconos/pagos.png" 
+                                       Width="100"
+                                       Margin="0,10,0,0"/>
+                                <Label Margin="0,0,0,0" 
+                                       Content="00" 
+                                       x:Name="numCaja"
+                                       Foreground="Green" 
+                                       FontSize="20"
+                                       HorizontalContentAlignment="Center"></Label>
+                            </WrapPanel>
+                        </Border>
+                    </WrapPanel>
+                    <Label  FontSize="20" Margin="10,10,0,0" Foreground="Gray">Ultimos pedidos realizados:</Label>
+
+                    <WrapPanel x:Name="panelData" Orientation="Horizontal" Height="504" Width="1152" >
+                        <Border BorderBrush="#3e4550"  BorderThickness="1" Width="430" Margin="15,0,0,0" Height="491">
+                            <ListBox x:Name="ultimosPedidos"
+                                     SelectionChanged="ultimosPedidos_SelectionChanged"
+                                      ItemsSource="{Binding Source={StaticResource ultimosPedidos10}}"
+                                      IsSynchronizedWithCurrentItem="True" >
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" Margin="2" >
+                                            <TextBlock Text="{Binding Path=Codigo_Pedido}" Margin="2" />
+                                            <TextBlock Text="{Binding Path=Estado}" Margin="2" />
+                                            <TextBlock Text="{Binding Path=Fecha_Pedido}" Margin="2" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </Border>
+                        <WrapPanel Orientation="Vertical" Width="476" Margin="0,0,-2,-1" >
+                            <Label Margin="0,0,0,0" 
+                                       Content="00:00:00" 
+                                       x:Name="hora"
+                                       Foreground="Black" 
+                                       FontSize="90"
+                                       HorizontalContentAlignment="Left"
+                                   Width="528"></Label>
+                            <Label Margin="0,20,0,0" 
+                                       Content="dia, 00 de mes de año" 
+                                       x:Name="fecha"
+                                       Foreground="#3370db" 
+                                       FontSize="30"
+                                       HorizontalContentAlignment="Left" 
+                                   Width="518"></Label>
+                        </WrapPanel>
+                    </WrapPanel>
+                </WrapPanel>
+            </Grid>
+          
+        </WrapPanel>
+    </Grid>
+
+</Window>

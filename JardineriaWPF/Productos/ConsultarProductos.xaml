@@ -1,0 +1,125 @@
+﻿<Window x:Class="JardineriaWPF.Productos.ConsultarProductos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JardineriaWPF.UserControls"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="ConsultarProductos" Height="450" Width="800">
+    <Window.Resources>
+        <CollectionViewSource  x:Key="listaProductos"  Source="{Binding}" />
+        <CollectionViewSource  x:Key="tipoProductos"  Source="{Binding}" />
+        <CollectionViewSource  x:Key="producto"  Source="{Binding}" />
+    </Window.Resources>
+    <Grid Background="WhiteSmoke" >
+        <Label FontSize="25"
+               HorizontalAlignment="Center">Consulta de productos</Label>
+        <WrapPanel Orientation="Horizontal" Margin="0,51,0,0">
+            <WrapPanel Orientation="Vertical"
+                       Height="322"
+                       Width="220"
+                       Margin="30,0">
+                <Label Margin="30,10"
+                       FontSize="15">Gama de productos:</Label>
+                <ListBox x:Name="gamaPedidos"
+                         SelectionChanged="gamaPedidos_Selected"
+                            ItemsSource="{Binding Source={StaticResource tipoProductos}}"
+                            Height="264" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="2">
+                                <TextBlock Text="{Binding Gama}" Margin="2" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </WrapPanel>
+            <WrapPanel Orientation="Vertical"
+                       Margin="0,10,20,0"
+                       Width="207" Height="336">
+                <Label FontSize="15"
+                       Margin="30,10,0,10">Productos de la gama:</Label>
+                <ListBox x:Name="listaProductos"
+                         SelectionChanged="listaProductos_SelectionChanged"
+                         ItemsSource="{Binding Source={StaticResource listaProductos}}"                    
+                         IsSynchronizedWithCurrentItem="True"
+                         Height="265" Width="208" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="2">
+                                <TextBlock Text="{Binding Path=Nombre}" Margin="2" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </WrapPanel>
+            <WrapPanel Orientation="Vertical"
+                       Margin="20,10,0,0"
+                       Width="207" Height="336">
+                <Label FontSize="15"
+                       Margin="30,10,0,10">Datos del producto:</Label>
+                <ListBox x:Name="datosProducto"
+                         ItemsSource="{Binding Source={StaticResource producto}}"  
+                         Height="265" Width="207" >
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="2">
+                                <WrapPanel Orientation="Vertical">
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Codigo: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Codigo_Producto}" Margin="2" >
+                                        </TextBlock>
+                                    </WrapPanel>
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Nombre: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Nombre}" Margin="2" > 
+                                        </TextBlock>
+                                    </WrapPanel>
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Gama: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Gama}" Margin="2" >
+                                        </TextBlock>
+                                    </WrapPanel>
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Dimensiones: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Dimensiones}" Margin="2" >
+                                        </TextBlock>
+                                    </WrapPanel>
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Proveedor: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Proveedor}" Margin="2" >
+                                        </TextBlock>
+                                    </WrapPanel>
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Descripcion: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Descripcion}" Margin="2" >
+                                        </TextBlock>
+                                    </WrapPanel>
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Stock: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Cantidad_En_Stock}" Margin="2" >
+                                        </TextBlock>
+                                    </WrapPanel>
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Precio de venta: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Precio_Venta}" Margin="2" >
+                                        </TextBlock>
+                                    </WrapPanel>
+                                    <WrapPanel Orientation="Horizontal">
+                                        <TextBlock Text="Precio del proveedor: " Margin="2" />
+                                        <TextBlock Text="{Binding Path=Precio_Proveedor}" Margin="2" >
+                                        </TextBlock>
+                                    </WrapPanel>
+                                </WrapPanel>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+            </WrapPanel>
+        </WrapPanel>
+
+    </Grid>
+</Window>

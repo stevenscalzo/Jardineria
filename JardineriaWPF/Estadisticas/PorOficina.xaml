@@ -1,0 +1,15 @@
+﻿<Window x:Class="JardineriaWPF.Estadisticas.PorOficina"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JardineriaWPF.Estadisticas"
+        mc:Ignorable="d"
+        Title="PorOficina" Height="450" Width="800">
+    <Grid  Background="WhiteSmoke">
+        <Label FontSize="25"
+               Margin="6,0,455,372"
+                   HorizontalAlignment="Center"
+                   Width="331">Gráficas de oficinas</Label>
+    </Grid>
+</Window>

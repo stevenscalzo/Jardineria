@@ -1,0 +1,70 @@
+﻿<Window x:Class="JardineriaWPF.Estadisticas.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JardineriaWPF.Estadisticas"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Border  BorderBrush="Black"
+                 BorderThickness="1"
+                 Margin="53,38,51,252">
+            <Grid Margin="0,0,0,-1">
+                <Label Margin="19,10,567,88"
+                       Height="30"
+                       Width="100">Cliente:</Label>
+                <Border  BorderBrush="Black"
+                          BorderThickness="1"
+                          Margin="98,10,333,88">
+                    <Label 
+                       Height="30"
+                       Name="Nombre"
+                       Content="Nombre del cliente" Margin="-1"/>
+                </Border>
+                <Label Margin="358,10,245,88"
+                       Height="30">Teléfono:</Label>
+                <Border  BorderBrush="Black"
+                          BorderThickness="1"
+                          Margin="426,10,20,88">
+                    <Label 
+                       Height="30"
+                       Name="Telefono"
+                       Content="Telefono" Margin="-1"/>
+                </Border>
+                <Label Margin="358,46,245,52"
+                       Height="30">Fax:</Label>
+                <Border  BorderBrush="Black"
+                          BorderThickness="1"
+                          Margin="426,46,20,53">
+                    <Label 
+                       Height="30"
+                       Name="Fax"
+                       Content="Fax" Margin="-1"/>
+                </Border>
+                <Label Margin="19,45,552,53" 
+                       Height="30">Código del pedido:</Label>
+                <Border  BorderBrush="Black"
+                          BorderThickness="1"
+                          Margin="139,45,333,53">
+                    <Label
+                           Height="30"
+                           Name="Codigo"
+                           Content="Código del pedido"/>
+                </Border>
+                <Label Margin="19,80,591,18" 
+                       Height="30">Dirección:</Label>
+                <Border  BorderBrush="Black"
+                          BorderThickness="1"
+                          Margin="100,80,20,18">
+                    <Label 
+                       Height="30"
+                       Name="Direccion"
+                       Content="dirección del cliente"/>
+
+                </Border>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
